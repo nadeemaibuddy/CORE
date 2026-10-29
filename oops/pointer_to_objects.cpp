@@ -27,5 +27,10 @@ int main()
     {
         po[i]->show();
     }
+    delete p;
+    for(int i=0;i<5;i++)
+    {
+        delete po[i];
+    }
 
 }
